@@ -37,6 +37,7 @@
     left: 0px;
     top: 100%;
     border: 1px solid #ddd;
+    z-index: 11;
 }
 .droplist li{
     width: 100%;
@@ -222,10 +223,10 @@ display: none;
 
 .bottom-nav .droplist{
     background-color: var(--main-color);
-    color: #000;
+    color: #000 !important;
     margin: 0px !important;
     width: fit-content;
-    bottom: -120px;
+    top: 100%;
     text-align: left;
     transition: .5s;
     display: block;
