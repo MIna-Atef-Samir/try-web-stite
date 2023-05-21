@@ -230,6 +230,7 @@ display: none;
     transition: .5s;
     display: block;
     visibility: hidden;
+    z-index: 11;
 }
 .bottom-nav .droplist li{
     width: 150px;
@@ -325,6 +326,7 @@ display: none;
     padding: 10px 20px;
     transition: .3s;
     visibility: hidden;
+    z-index: 11;
 }
 .bars:hover .list{
     visibility: visible;
