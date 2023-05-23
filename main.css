@@ -652,6 +652,7 @@ transition: .3s;
 }
 .bigimages{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     flex-direction: row;
     height: fit-content;
@@ -662,6 +663,7 @@ transition: .3s;
 }
 .bigimages .cover{
     width: 45%;
+    margin-top: 20px;
 }
 .bigimages img{
     height: 100%;
@@ -804,7 +806,9 @@ footer .scoundPart span{
     .vendors div{
         width: 30%;
     }
-
+    .bigimages .cover{
+        width: 100%;
+    }
 }
 @media (max-width:575px) {
     .categories .cat, .card, .firstPart > div{
